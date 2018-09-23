@@ -1,0 +1,5 @@
+{
+  "port": 9888,
+  "cache_dir": "./cache",
+  "token": "DEMO_TOKEN"
+}

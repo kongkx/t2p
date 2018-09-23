@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" width="128px" height="128px" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+<title>TExT</title>
+<g id="TExT">
+	<rect id="Rectangle" x="0" y="0" width="128" height="128" fill="#FFFFFF" />
+	<text
+    x="9.313"
+    y="85"
+    font-family="HelveticaNeue-CondensedBold, Helvetica Neue"
+    font-weight="bold"
+    font-stretch="condensed"
+    font-size="58px"
+  >TExT</text>
+</g>
+</svg>
