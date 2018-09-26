@@ -136,9 +136,9 @@ class CustomServerHandler(http.server.BaseHTTPRequestHandler):
                         returncode = subprocess.call(['inkscape', '-T', str('-f=%s' % temppath), str('-l=%s' % outputpath) ])
                         
                         try:
-                            f = open(outputpath)
+                            f = open(outputpath, 'r', encoding='utf-8')
                             self.send_response(200)
-                            self.send_header('Content-type', 'image/svg+xml')
+                            self.send_header('Content-Type', 'image/svg+xml; charset=utf-8')
                             self.send_header('Cotnent-Diposition', 'attachment; filename="[output]' + basename +'"')
                             self.end_headers()
                             self.wfile.write(f.read().encode())
